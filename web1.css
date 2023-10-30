@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none; 
+
+}
+
+.flex {
+    display: flex;
+}
+
+.space {
+    height: 200px;
+}
+
+.back_btn hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+.primary-button {
+    background-color: powderblue !important;
+    color: white !important;
+    transition: 0.3s ease-out;
+}
+
+.primary-button:hover {
+    background-color: powderblue !important;
+    color: black !important;
+}
+
+.secondary-button {
+    border: 0.2px solid black;
+    transition: 0.3s ease-out;
+    gap: 5px;
+}
+
+.secondary-button:hover {
+    color: blue;
+}
+
+.btn1 {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+/* utilites */
+
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+
+/* top banner */
+
+.top-banner {
+    height: 60px;
+    background-color: green;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-content {
+    justify-content: space-between;
+}
+
+.nav-logo {
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    gap: 50px;
+}
+
+
+/* header */
+
+.header-content {
+    gap: 50px;
+}
+
+.header-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right img {
+    width: 320px;
+    border-radius: 6px;
+}
+
+.header-btn {
+    position: relative;
+    top: 20px;
+}
+
+
+/* examples */
+
+.example-section {
+    padding-top: 50px;
+}
+
+.example-header {
+    text-align: center;
+    margin: 10px;
+}
+
+.example-header-text {
+    padding: 30px;
+}
+
+.example-content {
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-card {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border:2px solid black;
+/*    background-image: url(wick.png);*/
+    background-position: center;
+/*    position: relative;*/
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+
+}
+
+.card_1{
+    background-image:url(sreeja/tomato.jpeg);
+}
+
+.card_2{
+    background-image:url(sreeja/brinjal.jpeg);
+}
+
+.card_3{
+    background-image:url(sreeja/ladiesfinger.jpeg);
+}
+
+.card_4{
+    background-image:url(sreeja/carrot.jpeg);
+}
+
+.card_5{
+    background-image:url(sreeja/spinach.jpeg);
+}
+
+.card_6{
+    background-image:url(sreeja/Market.jpg);
+}
+
+.example-card:hover {
+    height: 300px;
+    width: 250px;
+    box-shadow: 2px 1px 5px 1px aqua;
+}
+
+.example-text {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    color: white;
+}
+
+.example-grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+/* footer */
+
+.footer {
+    height: 80px;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
